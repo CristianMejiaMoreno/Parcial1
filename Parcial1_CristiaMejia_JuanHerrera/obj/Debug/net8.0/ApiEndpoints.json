@@ -798,5 +798,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Parcial1_CristiaMejia_JuanHerrera.WeatherForecast, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
   }
 ]

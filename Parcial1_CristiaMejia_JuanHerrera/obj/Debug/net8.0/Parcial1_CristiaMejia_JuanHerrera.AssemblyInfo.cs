@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Parcial1_CristiaMejia_JuanHerrera")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+939852eb4dff507cca6425a4c7c8c741dcc920b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e73fd3d6bd8095aabc0cd0a70a855b293d1c7b35")]
 [assembly: System.Reflection.AssemblyProductAttribute("Parcial1_CristiaMejia_JuanHerrera")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Parcial1_CristiaMejia_JuanHerrera")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
