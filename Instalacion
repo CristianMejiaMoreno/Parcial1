@@ -1,0 +1,84 @@
+Bueenas profe,
+
+Para hacer que funcione el programa debe primero crear la DB, despues ejecutar el programa para ejecutar las migraciones
+
+Mi compañero Juan creo un seeder para la db, para tener datos de prueba
+
+que es el siguiente
+
+
+-- Insertar datos en Agencia
+INSERT INTO Agencia (Nombre, Direccion, Telefono) VALUES
+('ITM Inmobiliaria', 'Calle 10 #45-67, Medellín', '3111234567'),
+('Elite Casas', 'Carrera 30 #12-34, Medellín', '3109876543'),
+('Hogar Ideal', 'Av. Poblado #23-89, Medellín', '3205567788'),
+('Viviendas del Sur', 'Calle 50 #32-21, Medellín', '3223344556'),
+('Casas y Más', 'Diagonal 75 #40-12, Medellín', '3128765432'),
+('Tu Casa Ya', 'Cra 45 #67-98, Medellín', '3156677889'),
+('Sueños Inmobiliarios', 'Calle 12 #34-56, Medellín', '3119988776'),
+('Bienes Raíces Medellín', 'Av. Oriental #78-90, Medellín', '3192244668'),
+('Patrimonio Inmobiliario', 'Cra 20 #11-45, Medellín', '3103344552'),
+('Futuro Hogar', 'Calle 55 #22-11, Medellín', '3167788994');
+ 
+-- Insertar datos en Cliente
+INSERT INTO Cliente (Nombre, Apellido, Cedula, Telefono, Email) VALUES
+('Juan', 'Perez', '100000001', '3001234567', 'juan.perez@mail.com'),
+('Ana', 'Gomez', '100000002', '3109876543', 'ana.gomez@mail.com'),
+('Carlos', 'Lopez', '100000003', '3205567788', 'carlos.lopez@mail.com'),
+('Maria', 'Rodriguez', '100000004', '3223344556', 'maria.rod@mail.com'),
+('Luis', 'Fernandez', '100000005', '3128765432', 'luis.fernandez@mail.com'),
+('Laura', 'Ramirez', '100000006', '3156677889', 'laura.ramirez@mail.com'),
+('Pedro', 'Sanchez', '100000007', '3119988776', 'pedro.sanchez@mail.com'),
+('Diana', 'Torres', '100000008', '3192244668', 'diana.torres@mail.com'),
+('Andres', 'Vargas', '100000009', '3103344552', 'andres.vargas@mail.com'),
+('Sofia', 'Jimenez', '100000010', '3167788994', 'sofia.jimenez@mail.com');
+ 
+-- Insertar datos en TipoVivienda
+INSERT INTO TipoVivienda (Descripcion) VALUES
+('Casa'),
+('Apartamento'),
+('Finca'),
+('Dúplex'),
+('Penthouse'),
+('Loft'),
+('Cabaña'),
+('Estudio'),
+('Bungalow'),
+('Villa');
+
+INSERT INTO Vivienda (IdAgencia, IdTipoVivienda, NumeroCuartos, NumeroBanos, TamanoM2, NumeroPisos, Accesorios) VALUES
+
+(1, 1, 3, 2, 120.50, 1, 'Jardín, Parqueadero'),
+
+(2, 2, 2, 1, 75.00, 1, 'Piscina, Gimnasio'),
+
+(3, 3, 5, 3, 250.00, 2, 'Patio, Terraza'),
+
+(4, 4, 4, 2, 180.00, 2, 'Balcón, Parqueadero'),
+
+(5, 5, 3, 2, 150.00, 1, 'Jacuzzi, Zona BBQ'),
+
+(6, 6, 2, 1, 80.00, 1, 'Cocina Integral'),
+
+(7, 7, 6, 4, 300.00, 2, 'Piscina, Sala de Juegos'),
+
+(8, 8, 1, 1, 50.00, 1, 'Amoblado, Internet'),
+
+(9, 9, 3, 2, 130.00, 1, 'Parqueadero, Terraza'),
+
+(10, 10, 4, 3, 200.00, 2, 'Sauna, Cine en Casa'); 
+ 
+
+
+
+INSERT INTO Venta (IdAgencia, IdCliente, IdVivienda, FechaVenta, Precio) VALUES
+(1, 1, 1, '2025-03-01', 300000000),
+(2, 2, 2, '2025-03-02', 200000000),
+(3, 3, 3, '2025-03-03', 500000000),
+(4, 4, 4, '2025-03-04', 350000000),
+(5, 5, 5, '2025-03-05', 400000000),
+(6, 6, 6, '2025-03-06', 180000000),
+(7, 7, 7, '2025-03-07', 700000000),
+(8, 8, 8, '2025-03-08', 120000000),
+(9, 9, 9, '2025-03-09', 280000000),
+(10, 10, 10, '2025-03-10', 450000000);
