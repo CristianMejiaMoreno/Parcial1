@@ -1,0 +1,802 @@
+[
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.AgenciaController",
+    "Method": "Get",
+    "RelativePath": "api/Agencia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.AgenciaController",
+    "Method": "Post",
+    "RelativePath": "api/Agencia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agencia",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.AgenciaController",
+    "Method": "Get",
+    "RelativePath": "api/Agencia/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.AgenciaController",
+    "Method": "Put",
+    "RelativePath": "api/Agencia/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "agencia",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.AgenciaController",
+    "Method": "Patch",
+    "RelativePath": "api/Agencia/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.AgenciaController",
+    "Method": "Delete",
+    "RelativePath": "api/Agencia/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.AgenciaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ClienteController",
+    "Method": "Get",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ClienteController",
+    "Method": "Post",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ClienteController",
+    "Method": "Get",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ClienteController",
+    "Method": "Put",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cliente",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ClienteController",
+    "Method": "Patch",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ClienteController",
+    "Method": "Delete",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ClienteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.TipoViviendaController",
+    "Method": "Get",
+    "RelativePath": "api/TipoVivienda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.TipoViviendaController",
+    "Method": "Post",
+    "RelativePath": "api/TipoVivienda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoVivienda",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.TipoViviendaController",
+    "Method": "Get",
+    "RelativePath": "api/TipoVivienda/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.TipoViviendaController",
+    "Method": "Put",
+    "RelativePath": "api/TipoVivienda/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoVivienda",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.TipoViviendaController",
+    "Method": "Patch",
+    "RelativePath": "api/TipoVivienda/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.TipoViviendaController",
+    "Method": "Delete",
+    "RelativePath": "api/TipoVivienda/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.TipoViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.VentaController",
+    "Method": "Get",
+    "RelativePath": "api/Venta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.VentaController",
+    "Method": "Post",
+    "RelativePath": "api/Venta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venta",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.VentaController",
+    "Method": "Get",
+    "RelativePath": "api/Venta/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.VentaController",
+    "Method": "Put",
+    "RelativePath": "api/Venta/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "venta",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.VentaController",
+    "Method": "Patch",
+    "RelativePath": "api/Venta/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.VentaController",
+    "Method": "Delete",
+    "RelativePath": "api/Venta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.VentaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ViviendaController",
+    "Method": "Get",
+    "RelativePath": "api/Vivienda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ViviendaController",
+    "Method": "Post",
+    "RelativePath": "api/Vivienda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vivienda",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ViviendaController",
+    "Method": "Get",
+    "RelativePath": "api/Vivienda/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ViviendaController",
+    "Method": "Put",
+    "RelativePath": "api/Vivienda/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vivienda",
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ViviendaController",
+    "Method": "Patch",
+    "RelativePath": "api/Vivienda/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDoc",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO, Parcial1_CristiaMejia_JuanHerrera, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Parcial1_CristiaMejia_JuanHerrera.Controllers.ViviendaController",
+    "Method": "Delete",
+    "RelativePath": "api/Vivienda/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Parcial1_CristiaMejia_JuanHerrera.Models.ViviendaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
